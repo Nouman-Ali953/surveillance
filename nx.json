@@ -9,7 +9,7 @@
     ],
     "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
-  "nxCloudId": "6979c1500fd8c96ea9b0f4ff",
+  "nxCloudId": "6979adfe7b9eefeda1484e3d",
   "plugins": [
     {
       "plugin": "@nx/webpack/plugin",
@@ -22,11 +22,6 @@
         "serveStaticTargetName": "serve-static"
       }
     },
-    {
-      "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    }
+    { "plugin": "@nx/eslint/plugin", "options": { "targetName": "lint" } }
   ]
 }
